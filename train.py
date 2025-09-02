@@ -30,7 +30,7 @@ parser.add_argument('--batch_size', default=256, type=int)
 parser.add_argument("--miss_rate", default=0.7)
 parser.add_argument("--λ", default=0.2)
 parser.add_argument("--cp_type", default=1, type=int,help="1: CL,  2: DD,  3: MI")
-parser.add_argument("--non_iid", type=bool, default=True)
+parser.add_argument("--non_iid", type=bool, default=False)
 parser.add_argument("--build_your_own_dimvc", type=bool, default=False)
 args = parser.parse_args()
 
